@@ -9,29 +9,42 @@ body {
     height: 100vh; /* Make sure the body takes up the full height of the viewport */
 }
 
+
+
 h2 {
-    font-size: 30px;
+    font-size: 60px;
     margin-bottom: 10px; /* Reduced margin bottom */
     color: #ffffff; /* Romantic color for the heading */
     text-shadow: 2px 2px 4px #ff26d4; /* Horizontal offset, Vertical offset, Blur radius, Color */
 }
 
 .para{
-    font-size: 18px;
+    font-size: 38px;
     margin-bottom: 15px; /* Adjusted margin bottom */
     margin-top: 10px; /* Added margin top */
     color: #ffffff; /* Romantic color for the heading */
     text-shadow: 1px 1px 3px #ff26d4; /* Horizontal offset, Vertical offset, Blur radius, Color */
+    animation: blink-animation 2s infinite; /* Apply animation */
+}
+
+@keyframes blink-animation {
+  0%, 50% {
+    color: #ffffff; /* Start and middle of animation, color #44476a */
+  }
+  50.1%, 100% {
+    color: #ff26d4; /* Middle and end of animation, color #ff26d4 */
+  }
+
 }
 
 
 .buttons {
-    padding: 17px 40px;
+    padding: 40px 100px;
     border-radius: 10px;
     border: 0;
     background-color: rgb(255, 255, 255);
     letter-spacing: 1.5px;
-    font-size: 15px;
+    font-size: 25px;
     transition: all 0.3s ease;
     box-shadow: #ff26d4 0px 10px 0px 0px;
     color: #ff26d4;
