@@ -39,7 +39,8 @@ h2 {
 
 
 .buttons {
-    padding: 40px 100px;
+    padding: 40px 100px; /* Adjust padding to control space inside each button */
+    margin: 15px; /* Add margin to create space between the buttons */
     border-radius: 10px;
     border: 0;
     background-color: rgb(255, 255, 255);
@@ -50,6 +51,7 @@ h2 {
     color: #ff26d4;
     cursor: pointer;
 }
+
 
 a {
     color: blue; /* Changes the color of the link text to blue */
@@ -74,7 +76,7 @@ a {
     font-size: 37px;
     color: #ff26d4; /* Romantic color for the popup text */
     width: 650px; /* Set a specific width if needed */
-    height: 500px; /* Set a specific height if needed */
+    height: 450px; /* Set a specific height if needed */
 }
 
 .popup a {
